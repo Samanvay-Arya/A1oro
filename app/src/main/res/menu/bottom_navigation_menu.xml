@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:titleCondensed="All"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"
+        android:id="@+id/BottomBar_Home"/>
+    <item android:title="Explore"
+        android:titleCondensed="F"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/ic_explore"
+        android:id="@+id/BottomBar_Explore"/>
+    <item android:title="All Member"
+        android:titleCondensed="All"
+        app:showAsAction="always"
+        android:enabled="false"
+        android:id="@+id/BottomBar_Empty2"/>
+    <item android:title="Your Bookings"
+        android:titleCondensed="FP"
+        android:icon="@drawable/ic_bookings"
+        app:showAsAction="always"
+        android:id="@+id/BottomBar_Your_Bookings"/>
+    <item android:title="Help"
+        android:titleCondensed="FS"
+        android:icon="@drawable/ic_help_svgrepo_com"
+        app:showAsAction="always"
+        android:id="@+id/BottomBar_Help"/>
+
+</menu>

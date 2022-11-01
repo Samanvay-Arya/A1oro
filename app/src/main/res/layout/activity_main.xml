@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:id="@+id/Frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+        />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:id="@+id/BottomNavigation_Bar"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="8dp"
+        app:fabCradleRoundedCornerRadius="50dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:itemIconTint="@color/base"
+            app:itemTextColor="@color/base"
+            android:background="@android:color/transparent"
+            app:menu="@menu/bottom_navigation_menu"/>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="65dp"
+        app:backgroundTint="@color/base"
+        app:maxImageSize="65dp"
+        android:id="@+id/FloatingActionButton_AddMember"
+        android:foreground="@drawable/ic_favorite_filled"
+        app:fabCustomSize="65dp"
+        android:scaleType="center"
+        android:soundEffectsEnabled="true"
+        android:fadingEdgeLength="10dp"
+        app:elevation="8dp"
+        android:foregroundGravity="center"
+        app:layout_anchor="@+id/BottomNavigation_Bar"
+        android:layout_height="65dp"
+        tools:ignore="ContentDescription,RtlSymmetry,UnusedAttribute" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
