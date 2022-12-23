@@ -4,8 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import com.google.firebase.auth.FirebaseAuth
+import com.samanvay.a1oro.login.Login
 
 class SplashScreen : AppCompatActivity() {
+    private var auth=FirebaseAuth.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
@@ -18,8 +21,16 @@ class SplashScreen : AppCompatActivity() {
 
             }
             override fun onFinish(){
-                startActivity(Intent(this@SplashScreen,Login::class.java))
-                finish()
+
+                    val currentUser = auth.currentUser
+                    if(currentUser != null) {
+                        startActivity(Intent(this@SplashScreen, MainActivity::class.java))
+                        finish()
+                    }else{
+                        startActivity(Intent(this@SplashScreen, Login::class.java))
+                        finish()
+                    }
+
             }
         }
         timer.start()
@@ -30,6 +41,7 @@ class SplashScreen : AppCompatActivity() {
         super.onResume()
         tim()
     }
+
 
 
 }

@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 
 import com.samanvay.a1oro.databinding.ActivityMainBinding
+import com.samanvay.a1oro.exploreListings.ExploreListings
+import com.samanvay.a1oro.help.help
+import com.samanvay.a1oro.homePage.home
+import com.samanvay.a1oro.yourBookings.yourBookings
 
 
 class MainActivity : AppCompatActivity() {

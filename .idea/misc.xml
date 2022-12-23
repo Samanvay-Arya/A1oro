@@ -3,25 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable-v24/loading_dialog.xml" value="0.121" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/custom_button_design.xml" value="0.2555" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_explore.xml" value="0.2415" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_group_76.xml" value="0.2235" />
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_home.xml" value="0.1235" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_left_arrow.xml" value="0.2555" />
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_login__2.xml" value="0.1235" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_login___2.xml" value="0.2305" />
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_main_acitivity_bg.xml" value="0.1235" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_right_arrow_svgrepo_com.xml" value="0.2325" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_star_svgrepo_com.xml" value="0.2555" />
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/drawable/ic_tv_not_available.xml" value="0.208" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/activity_explore_all.xml" value="0.25" />
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/activity_firebase_uiactivity.xml" value="0.25" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/activity_listing_detail.xml" value="0.19950124688279303" />
-        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/activity_phone_number_login.xml" value="0.25" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/available_locations_card_design.xml" value="0.536" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/bookings_card_design.xml" value="0.536" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/fragment_explore_listings.xml" value="0.25" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/fragment_help.xml" value="0.25" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/fragment_home.xml" value="0.2359375" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/fragment_your_bookings.xml" value="0.25" />
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/hotel_listing_card_design.xml" value="0.24864130434782608" />
+        <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/loading_dialog.xml" value="0.1" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/main_activity_circular_listing_card_design.xml" value="0.25" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/layout/room_listing_card_desgin.xml" value="0.264" />
         <entry key="..\:/Users/Samanvay Arya/AndroidStudioProjects/A1oro/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
